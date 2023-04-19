@@ -302,7 +302,7 @@
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                <ul class="nav">
                   <li class="nav-item">
-                     <a class="nav-link" href="index.php">
+                     <a class="nav-link" href="matterinside.php">
                      <i class="icon-grid menu-icon"></i>
                      <span class="menu-title">Matters</span>
                      <i class="menu-arrow"></i>
@@ -323,7 +323,7 @@
                         </div> -->
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+                     <a class="nav-link" href="time-fees.php">
                      <i class="icon-columns menu-icon"></i>
                      <span class="menu-title">Time & Fees</span>
                      <i class="menu-arrow"></i>
@@ -347,7 +347,7 @@
                         </div> -->
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                     <a class="nav-link" href="accounts.php">
                      <i class="icon-grid-2 menu-icon"></i>
                      <span class="menu-title">Accounts</span>
                      <i class="menu-arrow"></i>

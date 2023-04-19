@@ -28450,7 +28450,7 @@ div.tagsinput span.tag a {
 
 .content-wrapper {
   background: #F5F7FF;
-  padding: 2.375rem 2.375rem;
+ /* padding: 2.375rem 2.375rem;*/
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -30611,11 +30611,16 @@ li {
     vertical-align: middle;
     background-color: #4b49ac;
     border: 1px solid #4b49ac;
-    padding: 8px 12px;
+    padding: 8px 10px;
     font-size: 14px;
     line-height: 1;
     border-radius: 12px;
     transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.cmnbtn:hover {
+  text-decoration: none;
+  color:#fff;
 }
 
 
@@ -30848,3 +30853,183 @@ a.numbtn {
   font-size: 14px;
 }
 
+
+
+/*---------Matter Inside Page------------*/
+
+.matterinside .hdngprt {
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.matterinside h3 {
+  margin:0;
+}
+
+.matterinside .sidelstg {
+  padding:20px;
+  background: #fff;
+  border-right: 1px solid #a9a9a9;
+  height:100vh;
+}
+
+.matterinside .sidelstg ul {
+  padding: 4px;
+}
+
+.matterinside .sidelstg li {
+  padding:5px 0;
+  margin:8px 0;
+  border:1px solid #cbc0c0;
+  text-align: center;
+}
+
+
+/**************************** sonali ghosh 19-04-2023**********************/
+
+.module-fees {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.module-fees .module-cal{}
+
+.module-select .form-select{border: 1px solid #d2d2d2;
+  padding: 10px 12px;}
+
+.timesecpart .module-fees .balance-type{
+  display:flex;
+  align-items: center;
+}
+
+.timesecpart .module-fees .balance-type {
+  padding:0px 0;
+}
+
+.timesecpart .module-fees .balance-type input {
+    width: 250px !important;
+    display: inline-block;
+    background-color: rgba(119,119,119,.1);
+    color: #000;
+    display: inline-block;
+    outline: none;
+    height: 20px;
+    margin: 0 5px;
+    padding: 20px 14px;
+    font-weight: 500;
+}
+
+.timesecpart .module-fees .balance-type i{ position: absolute;
+  right: 16%;
+  color: #000;
+  font-weight: 600;
+  top: 9px;
+  font-size: 18px;
+  }
+
+.timesecpart .module-fees .balance-type span {
+  font-size: 14px;
+}
+
+.timesecpart .module-matter{ display: flex;align-items: center;padding:10px 15px;}
+
+.timesecpart form.forms-sample {
+    display: flex;align-items: center;
+}
+.timesecpart .FeeEntry-matter-input-section {
+  flex: 2;
+}
+
+
+.timesecpart .FeeEntry-matter-input-section .css-butsr4-container {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.timesecpart .module-matter .form-control{border: 1px solid #d2d2d2;
+  padding: 10px 12px;}
+  .module-matter .form-group{margin-bottom: 0;}
+
+ .timesecpart .module-matter .form-group.activity .form-control{margin:0px 4px;width: 100px;}
+ .timesecpart .module-matter .form-group.duration .form-control{margin: 0px 4px;width: 100px;}
+
+.timesecpart .module-matter .form-control{padding: 6px 8px;border: 1px solid #bbb5b5;}
+
+.timesecpart .module-matter .form-group.time .form-control{width:100px;margin: 0px 3px;}
+
+.timesecpart .module-matter .form-group.rate .form-control{width:100px;margin: 0px 3px;}
+
+.timesecpart .module-matter .form-group.acct .form-control{width:100px;margin: 0px 3px;}
+ .timesecpart .module-matter .form-group.duration .form-control{margin: 0px 4px;width: 100px;}
+ .timesecpart .module-matter .form-group.subject .form-control{margin: 0px 4px;width: 100px;}
+
+
+ .timesecpart .listingprt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ .timesecpart .btn.btn-primary{padding: 11px 32px 10px 30px;
+    text-align: center;}
+
+  .timesecpart .form-group.frm-btn {
+    margin-left: 16px;
+}
+
+
+.panel-filter h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 11px 21px;
+    border-bottom: 1px solid rgba(180,180,180,.5);
+    margin-bottom: 0;
+}
+
+.panel-filter .side-menu-list {
+    color: gray;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.panel-filter .side-menu-list>li {
+    font-weight: normal;
+    color: rgba(51,51,51,.85);
+    padding: 8px 24px;
+    margin: -1px 0 0;
+    border: 0;
+    border-radius: 0;
+    background: rgba(0,0,0,0);
+    transition: .2s all ease-in;
+    -webkit-transition: .2s all ease-in;
+}
+
+.panel-filter .side-menu-list li.indent {
+    padding-left: 50px;
+}
+
+
+.panel-filter .side-menu-list>li.active, .panel-filter .side-menu-list>li.selected {
+    color: #fff;
+    background-color: #4b49ac;
+    border-color: #b4b4b4;
+}
+
+.panel-filter .side-menu-list>li:hover, .panel-filter .side-menu-list>li:focus {
+    background-color: #dbebfb;
+    cursor: pointer;
+}
+
+
+.panel-filter .side-menu-list li.indent2 {
+    padding-left: 70px;
+}

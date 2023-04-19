@@ -518,16 +518,16 @@
                                              </h5>
                                           </div>
                                           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion" style="">
-                                             <div class="card-body">
+                                             <div class="card-body" style="padding: 10px 15px;">
                                                 <div class="debtor-balances">
                                                    <div class="balance-type">
-                                                      <span class="balance-type-label">At least $ </span>
+                                                      <span class="balance-type-label">At least $</span>
                                                       <div class="inline-block">
                                                          <div class="input-group currency-input balance-value inline-block">
                                                             <input type="number" step="0.01" class="form-control currency" value="">
                                                          </div>
                                                       </div>
-                                                      <span class="balance-type-label"> in Trust</span>
+                                                      <span class="balance-type-label">in Trust</span>
                                                    </div>
                                                    <div class="balance-type">
                                                       <span class="balance-type-label">At least $ </span>
@@ -535,7 +535,7 @@
                                                          <div class="input-group currency-input balance-value"><input type="number" step="0.01" class="form-control currency" value="">
                                                          </div>
                                                       </div>
-                                                      <span class="balance-type-label"> in Operating</span></div></div>
+                                                      <span class="balance-type-label">in Operating</span></div></div>
                                              </div>
                                           </div>
                                        </div>
@@ -696,14 +696,14 @@
                                  <div class="col-md-3">
                                     <div id="accordion">
                                        <div class="card">
-                                          <div class="card-header" id="headingOne">
+                                          <div class="card-header" id="headingTen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                                 List
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                          <div id="collapseTen" class="collapse show" aria-labelledby="headingTen" data-parent="#accordion">
                                              <div class="card-body">
                                                 <ul>
                                                    <li class="py-2"><a href="#">A-Z</a></li>
@@ -713,14 +713,41 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingTwo">
+                                          <div class="card-header" id="headingEleven">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                Show
+                                                </button>
+                                             </h5>
+                                          </div>
+                                          <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                                             <div class="card-body">
+                                                <ul>
+                                                   <li class="py-2"><a href="#">All unbilled matters</a></li>
+                                                </ul>
+                                                <div class="debtor-balances">
+                                                   <div class="balance-type">
+                                                      <span class="balance-type-label">At least $ </span>
+                                                      <div class="inline-block">
+                                                         <div class="input-group currency-input balance-value inline-block">
+                                                            <input type="number" step="0.01" class="form-control currency" value="">
+                                                         </div>
+                                                      </div>
+                                                      <span class="balance-type-label"> in Trust</span>
+                                                   </div>
+                                                </div>   
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="card">
+                                          <div class="card-header" id="headingTwelve">
+                                             <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                                 For Entries Dated
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                          <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
                                              <div class="card-body">
                                                 <ul>  
                                                  <li class="pb-2"><a href="#">All</a></li>
@@ -754,14 +781,14 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingFive">
+                                          <div class="card-header" id="headingThirteen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                                                 Billing Type
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                          <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
                                              <div class="card-body">
                                                 <ul class="listingprt">
                                                    <li>
@@ -827,14 +854,14 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingSix">
+                                          <div class="card-header" id="headingFourteen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
                                                 Matter Type
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                          <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion" style="">
                                              <div class="card-body">
                                                 <form>
                                                    <div class="form-check">
@@ -848,14 +875,14 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingSeven">
+                                          <div class="card-header" id="headingFifteen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                                                 Matter Status
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion" style="">
+                                          <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion" style="">
                                              <div class="card-body">
                                                 <ul class="listingprt">
                                                    <li>
@@ -925,14 +952,14 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingEight">
+                                          <div class="card-header" id="headingSixteen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
                                                 Attorney Responsible
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion" style="">
+                                          <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion" style="">
                                              <div class="card-body">
                                                 <div class="btnprt mb-2">
                                                    <button type="button" class="btn btn-outline-secondary btn-sm">None</button>
@@ -945,15 +972,15 @@
                                           </div>
                                        </div>
                                        <div class="card">
-                                          <div class="card-header" id="headingNine">
+                                          <div class="card-header" id="headingSeventeen">
                                              <h5 class="mb-0">
-                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
                                                 Debtor Balances
                                                 </button>
                                              </h5>
                                           </div>
-                                          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion" style="">
-                                             <div class="card-body">
+                                          <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion" style="">
+                                             <div class="card-body" style="padding: 10px 15px;">
                                                 <div class="debtor-balances">
                                                    <div class="balance-type">
                                                       <span class="balance-type-label">At least $ </span>

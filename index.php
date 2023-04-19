@@ -192,7 +192,7 @@
                                        <h5>OPEN MATTERS</h5>
                                     </div>
                                     <div class="btnmtrs">
-                                       <button type="button" class="cmnbtn">Primary</button>
+                                       <a href="matterinside.php" class="cmnbtn">Add Matter</a>
                                     </div>
                                     <div class="table-responsive">
                                        <table class="table bg-white">
